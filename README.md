@@ -4,7 +4,6 @@
 
 
 ## Overview 🔍
-
 This project demonstrates how to:
 1. Write a correct circuit.circom implementation
 2. Compile the circuit to generate circuit intermediaries
@@ -12,6 +11,9 @@ This project demonstrates how to:
 4. Deploy a Solidity verifier contract on the Mumbai Testnet
 5. Call the `verifyProof()` method on the verifier contract and assert the output is true.
 
+
+## Circuit Diagram
+[![Assessment-b05f6ed658.png](https://i.postimg.cc/DwrhM3sh/Assessment-b05f6ed658.png)](https://postimg.cc/ts48sf2v)
 
 ## Installation 🖥️
 
