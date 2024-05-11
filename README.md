@@ -1,6 +1,5 @@
 # 🛡️ zkSNARK circuit and proof  🕵️
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)  ![Hardhat](https://img.shields.io/badge/built%20with-Hardhat-orange.svg)  ![Ethers](https://img.shields.io/badge/uses-Hardhat_Circom-yellow.svg)
 
 
 ## Overview 🔍
@@ -11,9 +10,6 @@ This project demonstrates how to:
 4. Deploy a Solidity verifier contract on the Mumbai Testnet
 5. Call the `verifyProof()` method on the verifier contract and assert the output is true.
 
-
-## Circuit Diagram
-[![Assessment-b05f6ed658.png](https://i.postimg.cc/DwrhM3sh/Assessment-b05f6ed658.png)](https://postimg.cc/ts48sf2v)
 
 ## Installation 🖥️
 
@@ -48,8 +44,4 @@ npx hardhat run --network mumbai scripts/deploy.ts
 ```
 
 This script will deploy the `CustomCircuitVerifier.sol` contract on the Mumbai network, generate a proof from the circuit intermediaries using `generateProof()`, generate calldata with `generateCallData()`, and finally, call `verifyProof()` on the verifier contract with the calldata deployed to Mumbai.
-
-## Acknowledgement 🌟
-
-This project is part of the [MetaCrafters](https://www.metacrafters.io/) assessment, and it has been a great learning experience.
 
